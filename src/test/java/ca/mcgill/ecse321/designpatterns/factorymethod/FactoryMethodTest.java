@@ -12,5 +12,8 @@ public class FactoryMethodTest {
 		
 		factory = new BigCarFactory();
 		assertEquals(factory.testHonk(), "honk honk");
+		
+		factory=new MediumCarFactory();
+		assertEquals(factory.testHonk(),"emmm");
 	}
 }
